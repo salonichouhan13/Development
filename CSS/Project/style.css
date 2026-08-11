@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar{
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav_logo{
+  height: 50px;
+  width: 100px;
+}
+.logo{
+  background-image: url("images.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border{
+  border: 1.5px solid transparent;
+}
+.border:hover{
+  border: 1.5px solid white;
+}
+/**box 2**/
+.add-first{
+  color: #cccccc;
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+.add-second{
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.Add-icon{
+  display: flex;
+  align-items: center;
+}
+/** box 3**/
+.nav-search{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width:620px ;
+  height: 40px;
+  border-radius:4px ;
+}
+.Search_Select{
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius:4px ;
+  border-bottom-left-radius:4px ;
+  border: none;
+
+}
+.Search-Input{
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+}
+.Search-icon{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background-color: rgb(238, 98, 22);
+  border-top-right-radius:4px ;
+  border-bottom-right-radius:4px ;
+}
+.nav-search:hover{
+  border: 2px;
+  border-color: coral;
+
+}
+/**box 4**/
+span{
+  font-size: 0.7rem;
+}
+.nav-second{
+  font-size:0.85rem; 
+  font-weight: 700;
+}
+/**box 5**/
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart{
+  font-size:0.85rem ;
+  font-weight: 700;
+}
+
+/* panel */
+.panel{
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: white;
+  align-items: center ;
+  justify-content: space-evenly;
+}
+.panel-ops p {
+  display:inline ;
+  margin-left: 15px;
+}
+.panel-ops{
+  width: 70%;
+  font-size: 0.86rem;
+}
+.panel-deals{
+  font-size:0.9rem ;
+  font-weight: 700;
+}
+
+/* hero sectoion */
+.hero-section {
+  background-image: url("back1.jpg");
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.hero-msg{
+  background-color: #f3f3f3;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 80%;
+  margin-bottom: 15px;
+
+}
+.hero-msg a{
+  color: #007185;
+} 
+.shop-section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box{
+  height: 400px;
+  border: 2px solid black;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.box-image{
+  height: 85%;
+  width: 80;
+  background-size: cover;
+  background-position: contain;
+}
+.Electronics{
+   height: 85%;
+  width: 80;
+  background-size: cover;
+  background-position: contain;
+}
+.jwe{
+    height: 85%;
+  width: 80;
+  background-size: cover;
+  background-position: contain;
+}
+.woman{
+    height: 85%;
+  width: 80;
+  background-size: cover;
+  background-position: contain;
+}
+
+

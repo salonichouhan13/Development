@@ -1,0 +1,14 @@
+h1{
+  color: blueviolet;
+  /* color:#22ffe5; */
+  background-color: aquamarine;
+}
+button{
+  /* color:brown; */
+  color: rgb(155, 171, 151);
+  background-color: chartreuse;
+}
+body{
+
+  background-color: aqua;
+}
